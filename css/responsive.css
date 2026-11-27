@@ -1,0 +1,184 @@
+/* ===== RESPONSIVE ===== */
+
+/* TABLET / NOTEBOOK CHICA */
+@media (max-width: 992px) {
+  aside {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .container_flex {
+    justify-content: center;
+  }
+}
+
+/* TABLET CHICA / MOVIL GRANDE */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navHeader {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navHeader ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    margin: 0 1.5rem;
+  }
+
+  .container_cards {
+    justify-content: center;
+  }
+
+  article {
+    width: 100%;
+    max-width: 34rem;
+    height: auto;
+    margin: 1.5rem;
+  }
+
+  article:hover {
+    width: 100%;
+    max-width: 34rem;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .opciones-ayuda {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .opcion {
+    width: 100%;
+  }
+
+  .galeria-adopcion,
+  .miembros-equipo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .animal,
+  .miembro {
+    width: 100%;
+  }
+
+  .mision-vision {
+    flex-direction: column;
+  }
+
+  .mision,
+  .vision {
+    width: 100%;
+  }
+
+  .cards-productos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-producto {
+    width: 100%;
+    max-width: 40rem;
+  }
+
+  .grid-resenas {
+    grid-template-columns: 1fr;
+  }
+
+  .mapa,
+  .mapa-contacto {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mapa-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .contacto .container-adopciones {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .formulario-contacto {
+    padding: 15px;
+  }
+
+  .titulo-contacto {
+    font-size: 2rem;
+  }
+}
+
+/* MOVIL */
+@media (max-width: 512px) {
+  html {
+    font-size: 55%;
+  }
+
+  .navHeader {
+    display: none;
+  }
+
+  .navMobile {
+    display: block;
+    width: 100%;
+  }
+
+  .container-adopciones {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  article:hover {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .cards-productos {
+    padding: 0 .5rem;
+  }
+
+  .grid-resenas {
+    gap: 1.5rem;
+  }
+
+  .titulo-seccion {
+    font-size: 2.3rem;
+  }
+
+  .intro-seccion {
+    font-size: 1.6rem;
+  }
+}
